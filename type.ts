@@ -13,3 +13,7 @@ export type SidebarProps = PropsWithChildren<{}>;
 export type BoxProps = PropsWithChildren<{
   className?: React.ComponentProps<"div">["className"];
 }>;
+
+export type HeaderProps = PropsWithChildren<{
+  className?: React.ComponentProps<"div">["className"];
+}>;
