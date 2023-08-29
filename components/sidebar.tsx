@@ -4,7 +4,7 @@ import { useMemo } from "react";
 import { usePathname } from "next/navigation";
 import { Box } from "./box";
 import { SidebarItem } from "./sidebar-item";
-import { RouteProps, SidebarProps } from "@/type";
+import { RouteProps, SidebarProps } from "@/types";
 import { BiSearch } from "react-icons/bi";
 import { Library } from "./library";
 import { HiHome } from "react-icons/hi";

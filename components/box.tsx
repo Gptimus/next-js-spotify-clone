@@ -1,4 +1,4 @@
-import { BoxProps } from "@/type";
+import { BoxProps } from "@/types";
 import React from "react";
 
 import { twMerge } from "tailwind-merge";

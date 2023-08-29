@@ -1,5 +1,5 @@
 "use client";
-import { HeaderProps } from "@/type";
+import { HeaderProps } from "@/types";
 import { useRouter } from "next/navigation";
 import { twMerge } from "tailwind-merge";
 import { RxCaretLeft, RxCaretRight } from "react-icons/rx";

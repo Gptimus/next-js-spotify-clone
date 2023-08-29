@@ -1,4 +1,4 @@
-import { RouteProps } from "@/type";
+import { RouteProps } from "@/types";
 import Link from "next/link";
 import { twMerge } from "tailwind-merge";
 
