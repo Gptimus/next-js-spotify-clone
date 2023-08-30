@@ -14,6 +14,7 @@ import { Modal } from "./modal";
 import { Input } from "./input";
 import { Button } from "./button";
 import { useSupabaseClient } from "@supabase/auth-helpers-react";
+import { Spinner } from "./spinner";
 
 export const UploadModal = () => {
   const uploadModal = useUploadModal();
@@ -150,7 +151,12 @@ export const UploadModal = () => {
           />
         </div>
 
-        <Button disabled={isLoading} type="submit">
+        <Button
+          disabled={isLoading}
+          type="submit"
+          className="text-white flex justify-center items-center gap-x-4"
+        >
+          {isLoading && <Spinner />}
           Create
         </Button>
       </form>
