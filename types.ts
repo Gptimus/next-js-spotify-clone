@@ -9,7 +9,9 @@ export type RouteProps = {
   href: string;
 };
 
-export type SidebarProps = PropsWithChildren<{}>;
+export type SidebarProps = PropsWithChildren<{
+  songs: Song[];
+}>;
 
 export type BoxProps = PropsWithChildren<{
   className?: React.ComponentProps<"div">["className"];
