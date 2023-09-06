@@ -1,4 +1,4 @@
-import { Sidebar } from "@/components/sidebar";
+import { Sidebar } from "@/app/(site)/components/sidebar";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Figtree } from "next/font/google";

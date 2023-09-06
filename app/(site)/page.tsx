@@ -1,7 +1,7 @@
 import { getSongs } from "@/actions/get-songs";
-import { Header } from "@/components/header";
-import { ListItem } from "@/components/list-item";
-import { PageContent } from "@/components/page-content";
+import { Header } from "@/app/(site)/components/header";
+import { ListItem } from "@/app/(site)/components/list-item";
+import { PageContent } from "@/app/(site)/components/page-content";
 
 export const revalidate = 0;
 
